@@ -4,6 +4,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -19,7 +20,19 @@ public class MainActivity extends ActionBarActivity {
         counter = 0;
         add = (Button) (findViewById(R.id.addB));
         sub = (Button) (findViewById(R.id.subB));
-        TextView = (Button) (findViewById(R.id.textView))
+        TextView = (Button) (findViewById(R.id.textView));
+        add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        sub.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 
     @Override
